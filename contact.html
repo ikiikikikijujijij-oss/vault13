@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - .gov</title>
+    <title>.gov - Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -194,10 +194,6 @@
             color: #000000;
         }
 
-        .discord-btn {
-            background-color: #000000;
-        }
-
         /* Gray text boxes for contact info */
         .info-box {
             background-color: rgba(255, 255, 255, 0.1);
@@ -322,7 +318,7 @@
     <!-- Main Content -->
     <div class="main-content">
         <div class="page-header">
-            <h1>Contact & Support</h1>
+            <h1>Contact</h1>
             <p>Get help with Luna Selfbot and other .gov tools</p>
         </div>
         
@@ -340,7 +336,7 @@
                     <h3>Discord Server</h3>
                     <p>Join our community for support, updates, and discussions with other users</p>
                     <div class="info-box">https://discord.gg/53UYPjs7cX</div>
-                    <a href="https://discord.gg/53UYPjs7cX" target="_blank" class="contact-btn discord-btn">Join Discord Server</a>
+                    <a href="https://discord.gg/53UYPjs7cX" target="_blank" class="contact-btn">Join Discord Server</a>
                 </div>
                 
                 <div class="contact-card">
@@ -419,16 +415,14 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 .gov - OSINT & Cybersecurity Tools. All rights reserved.</p>
+        <p>&copy; 2023 .gov</p>
         <p style="margin-top: 10px;">All products are provided free of charge. Use responsibly and in accordance with Discord's Terms of Service.</p>
-        <p style="margin-top: 10px; font-size: 12px; color: #666;">Black & White Theme | Contact Page</p>
     </footer>
 
     <script>
         // Add black and white filter to background image
-        window.addEventListener('load', function() {
-            const body = document.querySelector('body');
-            body.style.filter = 'grayscale(100%)';
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.filter = 'grayscale(100%)';
         });
     </script>
 </body>
